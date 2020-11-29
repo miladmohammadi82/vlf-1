@@ -43,6 +43,10 @@ body {
   font-family: sans-fa, sans;
 }
 
+a {
+    text-decoration: none;
+}
+
 .btn {
   font-family: sans;
   padding: 4px 8px;
@@ -341,10 +345,102 @@ body {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    transition: all 0.5s 0s ease;
 }
 
 .swiper-pagination-bullet-active {
     background-color: #0066ff;
     border: none;
     width: 40px;
+}
+
+.course-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    position: relative;
+}
+
+.discount-logo {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: -20px;
+    right: -15px;
+}
+
+.course-img {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    height: 180px;
+}
+
+.course-content-container {
+    padding: 10px;
+}
+.course-title {
+    font-size: 15px;
+    color: #333232;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+
+.course-teacher {
+    display: block;
+    font-size: 14px;
+    margin-top: 22px;
+    color: #404040;
+    transition: all 0.5s ease;
+}
+
+.course-teacher:hover {
+    color: #fca311;
+}
+
+.price-card {
+    color: #0096c7;
+    font-size: 15px;
+    display: block;
+    text-align: left;
+}
+
+.price-card .price-discount {
+    color: #0096c7;
+    font-size: 20px;
+}
+
+.lenght {
+    font-size: 14px;
+    color: #3e3e3e;
+}
+
+.btn-buy {
+    padding: 4px 7px;
+    font-size: 10.3pt;
+}
+
+.best-teacher-avatar {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.best-teacher-name {
+    font-size: 20px;
+    font-family: 'sans-md';
+}
+
+.best-teacher-desc {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.best-teacher-bio {
+    text-align: justify;
 }

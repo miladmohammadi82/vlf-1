@@ -3,7 +3,7 @@
         <swiper-slide>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/img/products/graphic.png" class="slider-image" alt="alt" />
+                    <img src="../../assets/img/products/graphic.png" class="slider-image" alt="alt" />
                 </div>
                 <div class="col-lg-6">
                     <div>
@@ -26,7 +26,7 @@
         <swiper-slide>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/img/products/algoritm.png" class="slider-image" alt="alt" />
+                    <img src="../../assets/img/products/algoritm.png" class="slider-image" alt="alt" />
                 </div>
                 <div class="col-lg-6">
                     <div>
@@ -49,11 +49,11 @@
         <swiper-slide>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/img/products/html-css-jquery.png" class="slider-image" alt="alt" />
+                    <img src="../../assets/img/products/html-css-jquery.png" class="slider-image" alt="alt" />
                 </div>
                 <div class="col-lg-6">
                     <div>
-                        <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown>
+                        <!-- <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown> -->
 
                         <p class="title-slider mt-4">طراحی های خلاقانه رابط کاربری وب سایت (HTML, CSS, JQuery)</p>
                         <p class="before-price-slider mt-4">500,000 تومان</p>
@@ -72,11 +72,11 @@
         <swiper-slide>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/img/products/javascriptOOP.png" class="slider-image" alt="alt" />
+                    <img src="../../assets/img/products/javascriptOOP.png" class="slider-image" alt="alt" />
                 </div>
                 <div class="col-lg-6">
                     <div>
-                        <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown>
+                        <!-- <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown> -->
 
                         <p class="title-slider mt-4">آموزش شی گرایی در جاوااسکریپت</p>
                         <p class="before-price-slider mt-4">500,000 تومان</p>
@@ -95,11 +95,11 @@
         <swiper-slide>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/img/products/mdbootstrap.png" class="slider-image" alt="alt" />
+                    <img src="../../assets/img/products/mdbootstrap.png" class="slider-image" alt="alt" />
                 </div>
                 <div class="col-lg-6">
                     <div>
-                        <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown>
+                        <!-- <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown> -->
 
                         <p class="title-slider mt-4">آموزش طراحی رابط کاربری با متریال بوت استرپ</p>
                         <p class="before-price-slider mt-4">500,000 تومان</p>
@@ -118,11 +118,11 @@
         <swiper-slide>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/img/products/php-security.png" class="slider-image" alt="alt" />
+                    <img src="../../assets/img/products/php-security.png" class="slider-image" alt="alt" />
                 </div>
                 <div class="col-lg-6">
                     <div>
-                        <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown>
+                        <!-- <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown> -->
 
                         <p class="title-slider mt-4">آموزش امنیت در PHP</p>
                         <p class="before-price-slider mt-4">500,000 تومان</p>
@@ -141,11 +141,11 @@
         <swiper-slide>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/img/products/seleniumc-sharp.png" class="slider-image" alt="alt" />
+                    <img src="../../assets/img/products/seleniumc-sharp.png" class="slider-image" alt="alt" />
                 </div>
                 <div class="col-lg-6">
                     <div>
-                        <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown>
+                        <!-- <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown> -->
 
                         <p class="title-slider mt-4">آموزش سلنیوم در C#</p>
                         <p class="before-price-slider mt-4">500,000 تومان</p>
@@ -164,11 +164,11 @@
         <swiper-slide>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/img/products/Stock-analysis.png" class="slider-image" alt="alt" />
+                    <img src="../../assets/img/products/Stock-analysis.png" class="slider-image" alt="alt" />
                 </div>
                 <div class="col-lg-6">
                     <div>
-                        <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown>
+                        <!-- <flip-countdown dir="ltr" :labels="labels" deadline="2020-12-25 00:00:00"></flip-countdown> -->
 
                         <p class="title-slider mt-4">آموزش تحلیل بورس در پایتون</p>
                         <p class="before-price-slider mt-4">500,000 تومان</p>
@@ -195,7 +195,7 @@
     import { Swiper, SwiperSlide } from "swiper/vue";
     import SwiperCore, { Autoplay, Pagination, A11y } from 'swiper';
     // import FlipCountdown from "vue2-flip-countdown";
-    import btnPrime from "./buttons/primary/primary";
+    import btnPrime from "../buttons/primary/primary";
     import "swiper/swiper-bundle.css";
     SwiperCore.use([
         Autoplay, Pagination, A11y, 
