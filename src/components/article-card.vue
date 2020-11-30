@@ -5,6 +5,7 @@
         </a>
         <div class="course-content-container">
             <a :href="link" class="article-title" v-text="title"></a>
+            <p class="mt-3 article-excerpts" v-text="description"></p>
             <div class="d-flex align-items-center justify-content-between">
                 <a :href="author.link" class="course-teacher">
                     <i class="fas fa-user"></i>
@@ -30,6 +31,10 @@
         name: "articleCard",
         props: {
             title: {
+                type: String,
+                required: true
+            },
+            description: {
                 type: String,
                 required: true
             },
