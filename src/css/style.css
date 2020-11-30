@@ -372,7 +372,7 @@ a {
 .course-img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
-    height: 180px;
+    height: auto;
 }
 
 .course-content-container {
@@ -380,11 +380,15 @@ a {
 }
 .course-title {
     font-size: 15px;
-    color: #333232;
+    color: #302a2a;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
+    transition: all 0.5s ease;
+}
+.course-title:hover {
+    color: #0089ff;
 }
 
 .course-teacher {
@@ -393,6 +397,7 @@ a {
     margin-top: 22px;
     color: #404040;
     transition: all 0.5s ease;
+    width: fit-content;
 }
 
 .course-teacher:hover {
@@ -443,4 +448,39 @@ a {
 
 .best-teacher-bio {
     text-align: justify;
+}
+
+.article-card {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    position: relative;
+}
+
+.article-title {
+    font-size: 16px;
+    color: #302a2a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    transition: all 0.5s ease;
+}
+.article-title:hover {
+    color: #0089ff;
+}
+
+.article-bookmark-btn {
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 14pt;
+}
+
+.article-card .views:hover {
+    color: #007aff;
+    cursor: pointer;
 }

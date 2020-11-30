@@ -15,7 +15,7 @@
                 <btn-prime class="mt-5">مشاهده صفحه مدرس</btn-prime>
             </div>
 
-            <div class="col-lg-8 mb-5">
+            <div class="col-lg-8">
                 <best-teacher-slider></best-teacher-slider>
             </div>
         </div>
