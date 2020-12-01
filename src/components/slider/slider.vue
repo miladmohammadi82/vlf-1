@@ -1,4 +1,5 @@
 <template>
+    <Title>پیشنهادات ویژه</Title>
     <swiper dir="rtl" class="container" :autoplay="{ delay: 2500, disableOnInteraction: false }" :slides-per-view="1" :space-between="30" :pagination="{ clickable: true, el: '.slider-pagination' }">
         <swiper-slide>
             <div class="row">
@@ -194,6 +195,7 @@
     // Import Swiper Vue.js components
     import { Swiper, SwiperSlide } from "swiper/vue";
     import SwiperCore, { Autoplay, Pagination, A11y } from 'swiper';
+    import Title from "../title";
     // import FlipCountdown from "vue2-flip-countdown";
     import btnPrime from "../buttons/primary/primary";
     import "swiper/swiper-bundle.css";
@@ -219,6 +221,7 @@
             SwiperSlide,
             // FlipCountdown,
             btnPrime,
+            Title,
             // Autoplay
         },
     };
