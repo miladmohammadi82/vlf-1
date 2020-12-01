@@ -4,7 +4,7 @@
             <img :src="image" :alt="title" class="course-img" />
         </a>
         <div class="course-content-container">
-            <a :href="link" class="article-title" v-text="title"></a>
+            <a :href="link" class="article-title" v-text="title" :content="title" v-tippy></a>
             <p class="mt-3 article-excerpts" v-text="description"></p>
             <div class="d-flex align-items-center justify-content-between">
                 <a :href="author.link" class="course-teacher">

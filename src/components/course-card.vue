@@ -5,7 +5,7 @@
             <img :src="image" :alt="title" class="course-img" />
         </a>
         <div class="course-content-container">
-            <a :href="link" class="course-title" v-text="title"></a>
+            <a :href="link" class="course-title" v-text="title" :content="title" v-tippy></a>
             <a :href="teacher.link" class="course-teacher" v-if="teacher">
                 <i class="fas fa-user"></i>
                 {{ teacher.name }}
