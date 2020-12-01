@@ -1,4 +1,5 @@
 <template>
+    <Title>مدرس برتر این هفته</Title>
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -25,11 +26,13 @@
 <script>
     import bestTeacherSlider from "../slider/best-teacher-slider";
     import btnPrime from "../buttons/primary/primary";
+    import Title from "../title";
     export default {
-        name: 'bestTeacher',
+        name: "bestTeacher",
         components: {
             bestTeacherSlider,
-            btnPrime
-        }
+            btnPrime,
+            Title,
+        },
     };
 </script>
