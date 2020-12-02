@@ -31,7 +31,9 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 online-course"></div>
+            <div class="col-lg-6">
+                <img src="../../assets/svg/online-course.svg" alt="Online Course SVG" draggable="false" class="d-none d-sm-block">
+            </div>
         </div>
     </header>
 </template>

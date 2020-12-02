@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-5 pt-5 d-flex flex-column">
+    <div class="mt-5 pt-5 d-flex flex-column px-sm-0 px-4">
         <i class="fas fa-envelope newsletter-icon"></i>
         <p style="text-align: center;" class="mt-3 mb-4">عضو خبرنامه ما شوید تا از آخرین تخفیف ها و اطلاعیه ها جا نمانید !</p>
         <form action="#" class="mx-auto d-flex align-items-center flex-column" style="width: 100%">

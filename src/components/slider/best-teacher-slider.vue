@@ -1,5 +1,5 @@
 <template>
-    <swiper dir="rtl" class="container" effect="coverflow" :coverflowEffect="coverflowEffect" :slides-per-view="3" :pagination="{ clickable: true, el: '.slider-pagination' }" >
+    <swiper dir="rtl" class="container" effect="coverflow" :coverflowEffect="coverflowEffect" :slides-per-view="'auto'" :pagination="{ clickable: true, el: '.slider-pagination' }" :watch-overflow="true" :grab-cursor="true" >
         <swiper-slide>
             <course-card title="حل مسائل و تمرین های الگوریتم و فلوچارت" :image="require('../../assets/img/products/algoritm.png')" link="#" price="100,000" lenght="12:00 ساعت" :special="true"></course-card>
         </swiper-slide>

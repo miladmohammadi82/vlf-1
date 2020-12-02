@@ -13,7 +13,7 @@
 
                             <p class="title-slider mt-4">آموزش گرافیک تبلیغاتی پیشرفته</p>
                             <p class="before-price-slider mt-4">500,000 تومان</p>
-                            <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex justify-content-center mt-4 slider-disc">
                                 <div class="price-slider">250,000 تومان</div>
                                 <div class="discount-slider">50% تخفیف</div>
                             </div>
@@ -36,7 +36,7 @@
 
                             <p class="title-slider mt-4">حل مسائل و تمرین های الگوریتم و فلوچارت</p>
                             <p class="before-price-slider mt-4">500,000 تومان</p>
-                            <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex justify-content-center mt-4 slider-disc">
                                 <div class="price-slider">250,000 تومان</div>
                                 <div class="discount-slider">50% تخفیف</div>
                             </div>
@@ -59,7 +59,7 @@
 
                             <p class="title-slider mt-4">طراحی های خلاقانه رابط کاربری وب سایت (HTML, CSS, JQuery)</p>
                             <p class="before-price-slider mt-4">500,000 تومان</p>
-                            <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex justify-content-center mt-4 slider-disc">
                                 <div class="price-slider">250,000 تومان</div>
                                 <div class="discount-slider">50% تخفیف</div>
                             </div>
@@ -82,7 +82,7 @@
 
                             <p class="title-slider mt-4">آموزش شی گرایی در جاوااسکریپت</p>
                             <p class="before-price-slider mt-4">500,000 تومان</p>
-                            <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex justify-content-center mt-4 slider-disc">
                                 <div class="price-slider">250,000 تومان</div>
                                 <div class="discount-slider">50% تخفیف</div>
                             </div>
@@ -105,7 +105,7 @@
 
                             <p class="title-slider mt-4">آموزش طراحی رابط کاربری با متریال بوت استرپ</p>
                             <p class="before-price-slider mt-4">500,000 تومان</p>
-                            <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex justify-content-center mt-4 slider-disc">
                                 <div class="price-slider">250,000 تومان</div>
                                 <div class="discount-slider">50% تخفیف</div>
                             </div>
@@ -128,7 +128,7 @@
 
                             <p class="title-slider mt-4">آموزش امنیت در PHP</p>
                             <p class="before-price-slider mt-4">500,000 تومان</p>
-                            <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex justify-content-center mt-4 slider-disc">
                                 <div class="price-slider">250,000 تومان</div>
                                 <div class="discount-slider">50% تخفیف</div>
                             </div>
@@ -151,7 +151,7 @@
 
                             <p class="title-slider mt-4">آموزش سلنیوم در C#</p>
                             <p class="before-price-slider mt-4">500,000 تومان</p>
-                            <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex justify-content-center mt-4 slider-disc">
                                 <div class="price-slider">250,000 تومان</div>
                                 <div class="discount-slider">50% تخفیف</div>
                             </div>
@@ -174,7 +174,7 @@
 
                             <p class="title-slider mt-4">آموزش تحلیل بورس در پایتون</p>
                             <p class="before-price-slider mt-4">500,000 تومان</p>
-                            <div class="d-flex justify-content-center mt-4">
+                            <div class="d-flex justify-content-center mt-4 slider-disc">
                                 <div class="price-slider">250,000 تومان</div>
                                 <div class="discount-slider">50% تخفیف</div>
                             </div>

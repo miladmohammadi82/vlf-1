@@ -1,36 +1,36 @@
 <template>
     <div class="container-fluid-lg">
         <!-- Header -->
-        <Header></Header>
+        <Header />
         <!-- End Header -->
 
         <!-- Main -->
         <main class="main">
             <!-- Container -->
-            <div class="container-fluid">
+            <div class="container-fluid-lg">
 
                 <!-- Services Box -->
-                <services-box></services-box>
+                <services-box />
                 <!-- End Services Box -->
 
                 <!-- Slider -->
-                <slider class="mb-5"></slider>
+                <slider class="mb-5" />
                 <!-- End Slider -->
 
                 <!-- New Cources -->
-                <new-courses></new-courses>
+                <new-courses />
                 <!-- End New Cources -->
 
                 <!-- Best Teacher -->
-                <best-teacher></best-teacher>
+                <best-teacher />
                 <!-- End Best Teacher -->
 
                 <!-- Posts -->
-                <posts></posts>
+                <posts />
                 <!-- End Posts -->
 
                 <!-- Newsletter -->
-                <newsletter></newsletter>
+                <newsletter />
                 <!-- End Newsletter -->
 
             </div>
@@ -39,7 +39,7 @@
         <!-- End Main -->
 
         <!-- Footer -->
-        <Footer></Footer>
+        <Footer />
         <!-- End Footer -->
     </div>
 </template>
