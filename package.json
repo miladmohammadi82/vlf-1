@@ -18,7 +18,7 @@
         "vue-ripple-directive": "^2.0.1",
         "vue-router": "^4.0.0-rc.3",
         "vue-scroll-progress": "^1.1.5",
-        "vue-stripe-menu": "^1.5.0",
+        "vue-stripe-menu": "github:Alexeykhr/vue-stripe-menu#pull/197/head",
         "vue-tippy": "^6.0.0-alpha.4",
         "vue2-flip-countdown": "^0.11.1"
     },
@@ -29,7 +29,9 @@
         "@vue/compiler-sfc": "^3.0.0",
         "babel-eslint": "^10.1.0",
         "eslint": "^6.7.2",
-        "eslint-plugin-vue": "^7.0.0-0"
+        "eslint-plugin-vue": "^7.0.0-0",
+        "raw-loader": "^4.0.2",
+        "sass-loader": "^10.1.0"
     },
     "eslintConfig": {
         "root": true,

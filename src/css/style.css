@@ -182,11 +182,12 @@ a {
     margin-right: 25px;
     cursor: pointer;
     color: #2f2f2f;
-    /* transition: all 0.5s 0s ease; */
+    line-height: 38px;
+    transition: all 0.5s 0s ease;
 }
 
 .nav li:hover {
-    border-bottom: 2px solid red;
+    color: #0066ff;
 }
 
 .logr .search-btn {

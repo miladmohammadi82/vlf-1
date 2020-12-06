@@ -6,12 +6,10 @@
             </div>
             <nav class="d-flex nav">
                 <li>صفحه اصلی</li>
-                <li>فرانت اند <i class="fas fa-angle-down"></i></li>
-                <li>بک اند <i class="fas fa-angle-down"></i></li>
-                <li>زبان ها <i class="fas fa-angle-down"></i></li>
-                <li>رابط کاربری <i class="fas fa-angle-down"></i></li>
-                <li>گرافیک <i class="fas fa-angle-down"></i></li>
-                <li>CMS ها <i class="fas fa-angle-down"></i></li>
+                <li>وبلاگ</li>
+                <li>درباره ما</li>
+                <li>تماس باما</li>
+                <li><btn-dang-out>مدرس شوید !</btn-dang-out></li>
             </nav>
             <div class="logr d-flex align-items-lg-center">
                 <btn-prime-flat class="fas fa-search search-btn ml-2"></btn-prime-flat>
@@ -43,6 +41,7 @@
     import btnPrimeOut from "../buttons/primary/outline";
     import btnWarnOut from "../buttons/warning/outline";
     import btnSccssFlat from "../buttons/success/flat";
+    import btnDangOut from "../buttons/danger/outline";
     export default {
         name: "Header",
         components: {
@@ -50,6 +49,7 @@
             btnPrimeOut,
             btnWarnOut,
             btnSccssFlat,
+            btnDangOut,
         },
     };
 </script>
