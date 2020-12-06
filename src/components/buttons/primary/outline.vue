@@ -1,5 +1,5 @@
 <template>
-    <Btn :to="to" class="primary-out" cr="rgb(80, 174, 255, 0.2)"><slot></slot></Btn>
+    <Btn :to="to" class="primary-out" cr="rgba(80, 174, 255, 0.2)"><slot></slot></Btn>
 </template>
 
 <script>

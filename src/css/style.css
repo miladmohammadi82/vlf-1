@@ -225,6 +225,39 @@ a {
     margin-top: 100px;
 }
 
+.category-card {
+    padding: 1rem .3rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-drag: none;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+
+/* .category-card:hover {
+    border: 1px solid #f3f3f3;
+} */
+
+.category-card img {
+    width: 80px;
+    height: 80px;
+}
+
+.category-card h5 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: #202325;
+}
+
 .service-body {
     padding: 25px;
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.25);

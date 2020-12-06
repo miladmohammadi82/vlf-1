@@ -9,6 +9,10 @@
             <!-- Container -->
             <div class="container-fluid-lg">
 
+                <!-- Categories -->
+                <Categories />
+                <!--End Categories  -->
+
                 <!-- Services Box -->
                 <services-box />
                 <!-- End Services Box -->
@@ -53,7 +57,7 @@
     import bestTeacher from "../components/sections/best-teacher";
     import Posts from "../components/sections/posts";
     import Footer from "../components/sections/footer";
-
+    import Categories from "../components/sections/categories";
     import slider from "../components/slider/slider.vue";
     import Newsletter from "../components/newsletter.vue";
 
@@ -68,6 +72,7 @@
             Footer,
             slider,
             Newsletter,
+            Categories,
         },
     };
 </script>
