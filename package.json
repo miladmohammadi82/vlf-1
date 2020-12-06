@@ -14,7 +14,6 @@
         "rollup-plugin-vue": "^6.0.0-beta.10",
         "swiper": "^6.3.5",
         "vue": "^3.0.0",
-        "vue-awesome-swiper": "^4.1.1",
         "vue-owl-carousel": "^2.0.3",
         "vue-ripple-directive": "^2.0.1",
         "vue-router": "^4.0.0-rc.3",
