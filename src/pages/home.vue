@@ -29,6 +29,10 @@
                 <best-teacher />
                 <!-- End Best Teacher -->
 
+                <!-- Become a teacher -->
+                <becomeTeacher />
+                <!-- End Become a teacher -->
+
                 <!-- Posts -->
                 <posts />
                 <!-- End Posts -->
@@ -60,6 +64,7 @@
     import Categories from "../components/sections/categories";
     import slider from "../components/slider/slider.vue";
     import Newsletter from "../components/newsletter.vue";
+    import becomeTeacher from "../components/sections/become-teacher";
 
     export default {
         name: "Home",
@@ -73,6 +78,7 @@
             slider,
             Newsletter,
             Categories,
+            becomeTeacher,
         },
     };
 </script>

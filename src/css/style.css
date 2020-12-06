@@ -240,6 +240,7 @@ a {
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in-out;
+    height: 100%;
 }
 
 /* .category-card:hover {
@@ -489,6 +490,11 @@ a {
 
 .best-teacher-bio {
     text-align: justify;
+}
+
+.become-teacher img {
+    width: 480px;
+    height: auto;
 }
 
 .article-card {
