@@ -10,13 +10,19 @@
 
             <div class="mobile">
                 <div class="search"><i class="far fa-search"></i></div>
-                <div class="user"><i class="far fa-user"></i></div>
+                <div class="user" @click="userMenuOpen = !userMenuOpen"><i class="far fa-user"></i></div>
                 <div class="hamberger" @click="sideMenuOpen = !sideMenuOpen"><i class="far fa-bars"></i></div>
             </div>
 
             <transition name="menu-side">
                 <div :class="['sidebar-menu', { 'menu-side-open': sideMenuOpen }]" v-if="sideMenuOpen">
                     <div class="close-side" @click="sideMenuOpen = !sideMenuOpen"><i class="fas fa-times"></i></div>
+                </div>
+            </transition>
+
+            <transition name="user-side">
+                <div :class="['sidebar-user', { 'user-side-open': userMenuOpen }]" v-if="userMenuOpen">
+                    <div class="close-side" @click="userMenuOpen = !userMenuOpen"><i class="fas fa-times"></i></div>
                 </div>
             </transition>
 
