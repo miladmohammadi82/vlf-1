@@ -18,7 +18,7 @@
                 <!-- End Services Box -->
 
                 <!-- Slider -->
-                <slider class="mb-5" />
+                <!-- <slider class="mb-5" /> -->
                 <!-- End Slider -->
 
                 <!-- New Cources -->
@@ -26,7 +26,7 @@
                 <!-- End New Cources -->
 
                 <!-- Best Teacher -->
-                <best-teacher />
+                <!-- <best-teacher /> -->
                 <!-- End Best Teacher -->
 
                 <!-- Become a teacher -->
@@ -58,11 +58,11 @@
     import Header from "../components/sections/header";
     import ServicesBox from "../components/sections/services-box";
     import newCourses from "../components/sections/new-cources";
-    import bestTeacher from "../components/sections/best-teacher";
+    // import bestTeacher from "../components/sections/best-teacher";
     import Posts from "../components/sections/posts";
     import Footer from "../components/sections/footer";
     import Categories from "../components/sections/categories";
-    import slider from "../components/slider/slider.vue";
+    // import slider from "../components/slider/slider.vue";
     import Newsletter from "../components/newsletter.vue";
     import becomeTeacher from "../components/sections/become-teacher";
 
@@ -72,10 +72,10 @@
             Header,
             ServicesBox,
             newCourses,
-            bestTeacher,
+            // bestTeacher,
             Posts,
             Footer,
-            slider,
+            // slider,
             Newsletter,
             Categories,
             becomeTeacher,
