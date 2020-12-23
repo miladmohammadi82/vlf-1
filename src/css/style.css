@@ -715,3 +715,43 @@ a {
     z-index: 998;
     top: 0;
 }
+
+.sidebar-menu {
+    width: 250px;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 8px 1px rgba(0,0,0,.25);
+    right: -250px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.canav-enter-to {
+    opacity: 0.5;
+}
+
+.canav-enter-from, .canav-leave-to {
+    opacity: 0;
+}
+
+.menu-side-enter-to, .menu-side-open {
+    right: 0;
+}
+
+.menu-side-enter-from, .menu-side-leave-to {
+    right: -250px;
+}
+
+.menu-side-enter-active, .menu-side-leave-active, .canav-enter-active, .canav-leave-active {
+    transition: all 0.8s ease;
+}
+
+.close-side {
+    color: red;
+    width: fit-content;
+    padding: 9px 15px;
+    font-size: 28px;
+    left: 0;
+    position: absolute;
+}

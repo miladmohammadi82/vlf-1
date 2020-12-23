@@ -1,6 +1,8 @@
 <template>
     <header class="mt-4">
-        <!-- <div class="canav"></div> -->
+        <transition name="canav">
+            <div class="canav" v-if="sideMenuOpen || userMenuOpen" @click="close()"></div>
+        </transition>
         <div class="d-flex ml-auto justify-content-lg-around head">
             <div class="ml-3">
                 <h2>LOGO</h2>
@@ -9,8 +11,14 @@
             <div class="mobile">
                 <div class="search"><i class="far fa-search"></i></div>
                 <div class="user"><i class="far fa-user"></i></div>
-                <div class="hamberger"><i class="far fa-bars"></i></div>
+                <div class="hamberger" @click="sideMenuOpen = !sideMenuOpen"><i class="far fa-bars"></i></div>
             </div>
+
+            <transition name="menu-side">
+                <div :class="['sidebar-menu', { 'menu-side-open': sideMenuOpen }]" v-if="sideMenuOpen">
+                    <div class="close-side" @click="sideMenuOpen = !sideMenuOpen"><i class="fas fa-times"></i></div>
+                </div>
+            </transition>
 
             <nav class="d-flex nav">
                 <li v-for="nav in navs" :key="nav.title" v-text="nav.title"></li>
@@ -36,7 +44,7 @@
             </div>
 
             <div class="col-lg-6">
-                <img src="../../assets/svg/online-course.svg" alt="Online Course SVG" draggable="false" class="d-none d-sm-block">
+                <img src="../../assets/svg/online-course.svg" alt="Online Course SVG" draggable="false" class="d-none d-sm-block" />
             </div>
         </div>
     </header>
@@ -59,25 +67,35 @@
         },
         data() {
             return {
+                sideMenuOpen: false,
+                userMenuOpen: false,
                 navs: [
                     {
                         title: "صفحه اصلی",
-                        link: "#"
+                        link: "#",
                     },
                     {
                         title: "وبلاگ",
-                        link: "#"
+                        link: "#",
                     },
                     {
                         title: "درباره ما",
-                        link: "#"
+                        link: "#",
                     },
                     {
                         title: "تماس باما",
-                        link: "#"
+                        link: "#",
                     },
                 ],
             };
+        },
+        methods: {
+            close() {
+                if (this.sideMenuOpen) {
+                    return (this.sideMenuOpen = false);
+                }
+                return (this.userMenuOpen = false);
+            },
         },
     };
 </script>
