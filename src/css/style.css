@@ -576,10 +576,6 @@ a {
     height: auto;
 }
 
-.wave-footer {
-    margin-bottom: -8px;
-}
-
 .infos {
     display: flex;
     justify-content: center;
@@ -648,9 +644,6 @@ a {
     }
     .header-2 {
         margin: 50px auto;
-    }
-    .wave-footer {
-        margin-bottom: -9px;
     }
     .infos {
         margin-top: 50px;

@@ -3,7 +3,6 @@
         <button class="top-button mx-auto mt-5" @click="backToTop">
             <i class="far fa-angle-up"></i>
         </button>
-        <img src="../../assets/svg/wave.svg" class="wave-footer" alt="wave footer" draggable="false" />
         <footer class="footer py-5 pr-lg-5">
             <div class="container-fluid">
                 <div class="row mt-5 pt-3 mx-auto">
