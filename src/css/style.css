@@ -704,6 +704,12 @@ a {
     }
 }
 
+@media only screen and (min-width: 992px) {
+    .become-teacher img {
+        width: 95%;
+    }
+}
+
 .mobile {
     font-size: 23px;
     display: none;
