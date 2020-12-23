@@ -3,7 +3,7 @@
     <div class="container mt-5">
         <div class="row">
             <template v-for="category in categories" :key="category.title">
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-6 col-sm-4">
                     <div class="category-card mt-3" v-ripple="'rgba(80, 255, 85, 0.2)'">
                         <img :src="category.icon" :alt="category.title" />
                         <h5 v-text="category.title" class="mt-3"></h5>

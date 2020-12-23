@@ -50,7 +50,7 @@
             </div>
 
             <div class="col-lg-6">
-                <img src="../../assets/svg/online-course.svg" alt="Online Course SVG" draggable="false" class="d-none d-sm-block" />
+                <img src="../../assets/svg/online-course.svg" alt="Online Course SVG" draggable="false" class="d-none d-sm-block col-sm-12 mt-5" />
             </div>
         </div>
     </header>

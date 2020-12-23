@@ -5,7 +5,7 @@
         </button>
         <footer class="footer py-5 pr-lg-5">
             <div class="container-fluid">
-                <div class="row mt-5 pt-3 mx-auto">
+                <div class="row mt-3 pt-3 mx-auto">
                     <div class="col-lg-4 infos">
                         <img src="../../assets/svg/video-cources.svg" alt="video cource logo" />
                         <ul>
@@ -54,7 +54,7 @@
 
                     <div class="col-lg-4 footer-section-3">
                         <h3>نماد ها و افتخارات</h3>
-                        <div class="d-flex mt-3 justify-content-around">
+                        <div class="d-flex mt-3 justify-content-around namadha">
                             <img src="../../assets/img/enamad.png" alt="نماد اعتماد تجارت الکترونیک (اینماد)" />
                             <img src="../../assets/img/samandehi.png" alt="نماد ساماندهی" />
                         </div>

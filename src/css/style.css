@@ -678,20 +678,29 @@ a {
     header[class="mt-4"] {
         margin-top: 8px !important;
     }
+    .become-teacher img {
+        width: 95%;
+    }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 385px) {
     .buttons {
         flex-flow: wrap;
     }
     .buttons .primary-out {
         margin-top: 10px;
     }
+}
+
+@media only screen and (max-width: 300px) {
     .slider-disc {
         flex-flow: wrap;
     }
     .become-teacher img {
-        width: 250px;
+        width: 95%;
+    }
+    .namadha {
+        flex-flow: wrap;
     }
 }
 
