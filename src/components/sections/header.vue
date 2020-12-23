@@ -1,16 +1,22 @@
 <template>
     <header class="mt-4">
-        <div class="row ml-auto justify-content-lg-around">
+        <!-- <div class="canav"></div> -->
+        <div class="d-flex ml-auto justify-content-lg-around head">
             <div class="ml-3">
                 <h2>LOGO</h2>
             </div>
+
+            <div class="mobile">
+                <div class="search"><i class="far fa-search"></i></div>
+                <div class="user"><i class="far fa-user"></i></div>
+                <div class="hamberger"><i class="far fa-bars"></i></div>
+            </div>
+
             <nav class="d-flex nav">
-                <li>صفحه اصلی</li>
-                <li>وبلاگ</li>
-                <li>درباره ما</li>
-                <li>تماس باما</li>
+                <li v-for="nav in navs" :key="nav.title" v-text="nav.title"></li>
                 <li><btn-dang-out>مدرس شوید !</btn-dang-out></li>
             </nav>
+
             <div class="logr d-flex align-items-lg-center">
                 <btn-prime-flat class="fas fa-search search-btn ml-2"></btn-prime-flat>
                 <btn-prime-flat style="border-bottom: 2px solid #023e8a;">ثبت نام</btn-prime-flat>
@@ -50,6 +56,28 @@
             btnWarnOut,
             btnSccssFlat,
             btnDangOut,
+        },
+        data() {
+            return {
+                navs: [
+                    {
+                        title: "صفحه اصلی",
+                        link: "#"
+                    },
+                    {
+                        title: "وبلاگ",
+                        link: "#"
+                    },
+                    {
+                        title: "درباره ما",
+                        link: "#"
+                    },
+                    {
+                        title: "تماس باما",
+                        link: "#"
+                    },
+                ],
+            };
         },
     };
 </script>

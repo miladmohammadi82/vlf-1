@@ -638,7 +638,11 @@ a {
     font-size: 17pt;
 }
 
-@media only screen and (max-width: 425px) {
+.head {
+    padding: 5px 15px;
+}
+
+@media only screen and (max-width: 768px) {
     .container {
         width: 90%;
     }
@@ -662,9 +666,21 @@ a {
         text-align: center;
         justify-content: center;
     }
+    .logr, .nav {
+        display: none !important;
+    }
+    .mobile {
+        display: flex !important;
+    }
+    .head {
+        justify-content: space-between;
+    }
+    header[class="mt-4"] {
+        margin-top: 8px !important;
+    }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 300px) {
     .buttons {
         flex-flow: wrap;
     }
@@ -674,4 +690,28 @@ a {
     .slider-disc {
         flex-flow: wrap;
     }
+    .become-teacher img {
+        width: 250px;
+    }
+}
+
+.mobile {
+    font-size: 23px;
+    display: none;
+    color: black;
+}
+.mobile div {
+    margin-right: 15px;
+}
+.mobile div:first-of-type {
+    margin-right: 0;
+}
+.canav {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 998;
+    top: 0;
 }
