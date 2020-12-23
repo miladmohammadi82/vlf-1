@@ -6,7 +6,7 @@
         <footer class="footer py-5 pr-lg-5">
             <div class="container-fluid">
                 <div class="row mt-3 pt-3 mx-auto">
-                    <div class="col-lg-4 infos">
+                    <div class="col-lg-4 col-md-4 infos">
                         <img src="../../assets/svg/video-cources.svg" alt="video cource logo" />
                         <ul>
                             <li>5 دوره</li>
@@ -14,7 +14,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-4 infos">
+                    <div class="col-lg-4 col-md-4 infos">
                         <img src="../../assets/svg/cap-student.svg" alt="student cap" />
                         <ul>
                             <li>180 دانشجو</li>
@@ -22,7 +22,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-4 infos">
+                    <div class="col-lg-4 col-md-4 infos">
                         <img src="../../assets/svg/articles.svg" alt="articles count" />
                         <ul>
                             <li>53 مقاله</li>
@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="row mt-5 pt-5">
-                    <div class="col-lg-4 footer-section-1">
+                    <div class="col-lg-4 col-md-4 footer-section-1">
                         <h3>درباره ما</h3>
                         <p class="mt-3">
                             از سال 1399 شروع کرده ایم و همواره برای بالا بردن سطح دانش همه شما عزیزان، به صورت شبانه روزی تلاش میکنیم. در مجموعه ویرولرن، بهترین اساتید بهترین دوره های آموزش را برای شما میسازند و آینده کاری شما را ضمانت میکنند.
@@ -41,7 +41,7 @@
                         </p>
                     </div>
 
-                    <div class="col-lg-4 footer-section-2">
+                    <div class="col-lg-4 col-md-4 footer-section-2">
                         <h3>دوره های آینده ما</h3>
                         <ul class="mt-3">
                             <li>آموزش پایتون مقدماتی</li>
@@ -52,9 +52,9 @@
                         </ul>
                     </div>
 
-                    <div class="col-lg-4 footer-section-3">
+                    <div class="col-lg-4 col-md-4 footer-section-3">
                         <h3>نماد ها و افتخارات</h3>
-                        <div class="d-flex mt-3 justify-content-around namadha">
+                        <div class="d-flex mt-3 justify-content-around namadha flex-md-wrap">
                             <img src="../../assets/img/enamad.png" alt="نماد اعتماد تجارت الکترونیک (اینماد)" />
                             <img src="../../assets/img/samandehi.png" alt="نماد ساماندهی" />
                         </div>

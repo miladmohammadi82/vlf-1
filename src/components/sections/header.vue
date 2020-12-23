@@ -3,7 +3,7 @@
         <transition name="canav">
             <div class="canav" v-if="sideMenuOpen || userMenuOpen" @click="close()"></div>
         </transition>
-        <div class="d-flex ml-auto justify-content-lg-around head">
+        <div class="d-flex ml-auto justify-content-lg-around head justify-content-md-around">
             <div class="ml-3">
                 <h2>LOGO</h2>
             </div>
