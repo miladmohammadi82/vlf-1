@@ -16,13 +16,30 @@
 
             <transition name="menu-side">
                 <div :class="['sidebar-menu', { 'menu-side-open': sideMenuOpen }]" v-if="sideMenuOpen">
-                    <div class="close-side" @click="sideMenuOpen = !sideMenuOpen"><i class="fas fa-times"></i></div>
+                    <div class="top-bg">
+                        <div class="close-side" @click="sideMenuOpen = !sideMenuOpen"><i class="fas fa-times"></i></div>
+                        <div class="search mx-auto">
+                            <input type="text" placeholder="جست و جو کنید ...">
+                            <span><i class="far fa-search"></i></span>
+                        </div>
+                    </div>
+                    <nav class="mt-5 mobile-nav">
+                        <li v-for="nav in navs" :key="nav.title" v-text="nav.title"></li>
+                    </nav>
                 </div>
             </transition>
 
             <transition name="user-side">
                 <div :class="['sidebar-user', { 'user-side-open': userMenuOpen }]" v-if="userMenuOpen">
-                    <div class="close-side" @click="userMenuOpen = !userMenuOpen"><i class="fas fa-times"></i></div>
+                    <div class="top-bg">
+                        <div class="close-side" @click="userMenuOpen = !userMenuOpen"><i class="fas fa-times"></i></div>
+                        <img src="../../assets/img/Amir-developer-avatar.jpg" alt="Avatar" class="mobile-avatar mx-auto">
+                    </div>
+                    <span class="username-mobile">Amirhossein</span>
+                    <btn-dang class="mx-auto d-block mt-2">خروج</btn-dang>
+                    <ul class="user-sidebar mt-3">
+                        <li v-for="userm in userMenu" :key="userm.title" v-text="userm.title"></li>
+                    </ul>
                 </div>
             </transition>
 
@@ -50,7 +67,7 @@
             </div>
 
             <div class="col-lg-6">
-                <img src="../../assets/svg/online-course.svg" alt="Online Course SVG" draggable="false" class="d-none d-sm-block col-sm-12 col-lg-12 mt-5" />
+                <img src="../../assets/svg/online-course.svg" alt="Online Course SVG" draggable="false" class="d-none d-sm-block col-sm-12 col-lg-12 mt-5 mt-lg-0" />
             </div>
         </div>
     </header>
@@ -62,6 +79,7 @@
     import btnWarnOut from "../buttons/warning/outline";
     import btnSccssFlat from "../buttons/success/flat";
     import btnDangOut from "../buttons/danger/outline";
+    import btnDang from "../buttons/danger/danger";
     export default {
         name: "Header",
         components: {
@@ -70,11 +88,47 @@
             btnWarnOut,
             btnSccssFlat,
             btnDangOut,
+            btnDang,
         },
         data() {
             return {
                 sideMenuOpen: false,
                 userMenuOpen: false,
+                userMenu: [
+                    {
+                        title: "ورود به حساب کاربری",
+                        link: "#"
+                    },
+                    {
+                        title: "تغییر کلمه عبور",
+                        link: "#"
+                    },
+                    {
+                        title: "دوره های خریداری شده",
+                        link: "#"
+                    },
+                    {
+                        title: "صدور کارت پایان دوره",
+                        link: "#"
+                    },
+                    {
+                        title: "پرسش و پاسخ ها",
+                        link: "#"
+                    },
+                    {
+                        title: "فاکتور ها",
+                        link: "#"
+                    },
+                    {
+                        title: "مدرس شوید !",
+                        link: "#"
+                    },
+                    {
+                        title: "خروج از حساب کاربری",
+                        link: "#"
+                    }
+                    
+                ],
                 navs: [
                     {
                         title: "صفحه اصلی",
