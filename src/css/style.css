@@ -729,6 +729,7 @@ a {
     font-size: 28px;
     left: 0;
     position: absolute;
+    cursor: pointer;
 }
 
 .sidebar-user .close-side{
@@ -796,6 +797,57 @@ a {
     margin-top: 30px;
 }
 
+.canav-search {
+    width: 100%;
+    position: fixed;
+    height: 270px;
+    background-color: #fff;
+    z-index: 998;
+    top: 0;
+    transition: all 0.8s ease;
+}
+
+.search-group {
+    z-index: 999;
+    /* background-color: blue; */
+    width: 60%;
+    height: 50px;
+    margin: 110px auto;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid orange;
+    display: flex;
+}
+
+.canav-search .close-side {
+    right: 15px;
+    top: 10px;
+    font-size: 40px;
+}
+
+.search-group input {
+    height: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 20px;
+    padding: 15px;
+    background: rgba(0,0,0,0);
+    color: #4e4e4e;
+    border: none;
+}
+
+.search-group button {
+    background: transparent;
+    border: none;
+    font-size: 23px;
+    padding: 10px 6px;
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    left: 4px;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         width: 90%;
@@ -835,6 +887,9 @@ a {
     .become-teacher img {
         width: 95%;
     }
+    .search-group {
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 385px) {
@@ -843,6 +898,9 @@ a {
     }
     .buttons .primary-out {
         margin-top: 10px;
+    }
+    .search-group {
+        width: 95%;
     }
 }
 

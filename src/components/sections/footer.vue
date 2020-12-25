@@ -1,6 +1,6 @@
 <template>
     <div>
-        <top-button class="top-button mx-auto mt-5" @click="backToTop">
+        <top-button class="top-button mx-auto mt-5">
             <i class="far fa-angle-up"></i>
         </top-button>
         <footer class="footer py-5 pr-lg-5">
@@ -92,21 +92,20 @@
 </template>
 
 <script>
-    import scrollTop from "../../js/assist";
     import social from "../buttons/socials/social";
-    import topButton from "../topBtn/top-btn"
+    import topButton from "../topBtn/top-btn";
     export default {
         name: "Footer",
         components: {
             social,
-            topButton
+            topButton,
         },
-        methods: {
-            backToTop() {
-                const sTop = document.documentElement.scrollTop || document.body.scrollTop;
-                scrollTop(window, sTop, 0);
-                this.$emit("click");
-            },
+        data() {
+            return {
+                students: 180,
+                posts: 53,
+                courses: 5,
+            };
         },
     };
 </script>

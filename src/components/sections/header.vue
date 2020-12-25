@@ -1,8 +1,17 @@
 <template>
     <header class="mt-4">
         <transition name="canav">
-            <div class="canav" v-if="sideMenuOpen || userMenuOpen" @click="close()"></div>
+            <div class="canav" v-if="sideMenuOpen || userMenuOpen || search" @click="close()"></div>
         </transition>
+
+        <div class="canav-search" v-show="search">
+            <div class="close-side" @click="search = !search"><i class="fas fa-times"></i></div>
+            <div class="search-group">
+                <input type="text" placeholder="جست و جو ...">
+                <button><i class="far fa-search"></i></button>
+            </div>
+        </div>
+
         <div class="d-flex ml-auto justify-content-lg-around head justify-content-md-around">
             <div class="ml-3">
                 <h2>LOGO</h2>
@@ -49,7 +58,7 @@
             </nav>
 
             <div class="logr d-flex align-items-lg-center">
-                <btn-prime-flat class="fas fa-search search-btn ml-2"></btn-prime-flat>
+                <btn-prime-flat class="fas fa-search search-btn ml-2" @click="search = !search"></btn-prime-flat>
                 <btn-prime-flat style="border-bottom: 2px solid #023e8a;">ثبت نام</btn-prime-flat>
                 <btn-sccss-flat style="border-bottom: 2px solid #0ead69;" class="mr-3">ورود</btn-sccss-flat>
             </div>
@@ -94,6 +103,7 @@
             return {
                 sideMenuOpen: false,
                 userMenuOpen: false,
+                search: false,
                 userMenu: [
                     {
                         title: "ورود به حساب کاربری",
@@ -153,8 +163,10 @@
             close() {
                 if (this.sideMenuOpen) {
                     return (this.sideMenuOpen = false);
+                } else if(this.userMenuOpen) {
+                    return this.userMenuOpen = false;
                 }
-                return (this.userMenuOpen = false);
+                return (this.search = false);
             },
         },
     };
