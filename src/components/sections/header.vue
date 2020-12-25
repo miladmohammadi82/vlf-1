@@ -12,7 +12,7 @@
             </div>
         </div>
 
-        <div class="d-flex ml-auto justify-content-lg-around head justify-content-md-around">
+        <div class="header-menu d-flex ml-auto justify-content-lg-around head justify-content-md-around">
             <div class="ml-3">
                 <h2>LOGO</h2>
             </div>
@@ -165,6 +165,23 @@
                 ],
             };
         },
+
+        mounted () {
+            let header = document.querySelector(".header-menu");
+            let sticky = header.offsetTop;
+
+            window.onscroll = ()=> {
+                
+                if (window.pageYOffset > sticky) {
+                    header.classList.add("sticky");
+                } 
+                    
+                else {
+                    header.classList.remove("sticky");
+                }
+            }
+        },
+
         methods: {
             close() {
                 if (this.sideMenuOpen) {
@@ -177,3 +194,19 @@
         },
     };
 </script>
+<style scoped>
+    
+
+
+    .sticky{
+        background: #FFC736;
+        position: fixed;
+        width: 100%;
+        margin: 0;
+        z-index: 1000;
+        margin: -7.4% 0 0 0;
+        transition: all .5s;
+        padding: 23px 0;
+        display: flex;
+    }
+</style>
