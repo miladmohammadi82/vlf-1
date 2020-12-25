@@ -202,11 +202,14 @@
         background: #FFC736;
         position: fixed;
         width: 100%;
-        margin: 0;
+        margin: -77px 0 0 0;
         z-index: 1000;
-        margin: -7.4% 0 0 0;
         transition: all .5s;
         padding: 23px 0;
         display: flex;
+        padding: 5px 15px;
+        padding: 5px 15px;
+        margin: -101px 0 0 0;
+        height: 62px;
     }
 </style>

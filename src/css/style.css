@@ -649,6 +649,12 @@ a {
 
 .head {
     padding: 5px 15px;
+    height: 62px;
+    background: #fff;
+    margin: -24px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mobile {
@@ -851,6 +857,9 @@ a {
 @media only screen and (max-width: 768px) {
     .container {
         width: 90%;
+    }
+    .sticky{
+        margin: -50px 0 0 0 !important;
     }
     .header-2 {
         margin: 50px auto;
