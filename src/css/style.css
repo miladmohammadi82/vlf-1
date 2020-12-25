@@ -808,7 +808,7 @@ a {
     position: fixed;
     height: 270px;
     background-color: #fff;
-    z-index: 998;
+    z-index: 9999;
     top: 0;
     transition: all 0.8s ease;
 }
