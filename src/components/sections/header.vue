@@ -64,7 +64,7 @@
             </div>
         </div>
 
-        <div class="row container-fluid header-2">
+        <div class="row container-fluid header-2" v-if="ishome">
             <div class="col-lg-6 d-flex flex-column justify-content-center head-center">
                 <h1>با ویرولرن</h1>
                 <h2 class="mt-3">لحظه ای از تکنولوژی عقب نمانید !</h2>
@@ -98,6 +98,12 @@
             btnSccssFlat,
             btnDangOut,
             btnDang,
+        },
+        props: {
+            ishome:{
+                default: false,
+                type: Boolean
+            }
         },
         data() {
             return {

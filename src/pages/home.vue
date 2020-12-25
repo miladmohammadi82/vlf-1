@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid-lg">
         <!-- Header -->
-        <Header />
+        <Header :ishome="true" />
         <!-- End Header -->
 
         <!-- Main -->
