@@ -889,6 +889,7 @@ a {
     }
     .head {
         justify-content: space-between;
+        margin: 5px 0 0 0;
     }
     header[class="mt-4"] {
         margin-top: 8px !important;
