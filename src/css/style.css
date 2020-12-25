@@ -649,6 +649,12 @@ a {
 
 .head {
     padding: 5px 15px;
+    height: 62px;
+    background: #fff;
+    margin: -24px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mobile {
@@ -852,6 +858,9 @@ a {
     .container {
         width: 90%;
     }
+    .sticky{
+        margin: -50px 0 0 0 !important;
+    }
     .header-2 {
         margin: 50px auto;
     }
@@ -880,6 +889,7 @@ a {
     }
     .head {
         justify-content: space-between;
+        margin: 5px 0 0 0;
     }
     header[class="mt-4"] {
         margin-top: 8px !important;
