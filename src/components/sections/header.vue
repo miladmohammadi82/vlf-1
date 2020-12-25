@@ -18,7 +18,7 @@
             </div>
 
             <div class="mobile">
-                <div class="search"><i class="far fa-search"></i></div>
+                <div class="search" @click="search = !search"><i class="far fa-search"></i></div>
                 <div class="user" @click="userMenuOpen = !userMenuOpen"><i class="far fa-user"></i></div>
                 <div class="hamberger" @click="sideMenuOpen = !sideMenuOpen"><i class="far fa-bars"></i></div>
             </div>
