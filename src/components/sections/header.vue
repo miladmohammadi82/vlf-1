@@ -170,7 +170,7 @@
             let header = document.querySelector(".header-menu");
             let sticky = header.offsetTop;
 
-            window.onscroll = ()=> {
+            window.onscroll = () => {
                 
                 if (window.pageYOffset > sticky) {
                     header.classList.add("sticky");
@@ -195,11 +195,8 @@
     };
 </script>
 <style scoped>
-    
-
-
     .sticky{
-        background: #FFC736;
+        box-shadow: 0px 5px 19px -13px rgba(0,0,0,0.75);
         position: fixed;
         width: 100%;
         margin: -77px 0 0 0;
