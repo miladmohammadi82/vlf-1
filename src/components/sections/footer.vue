@@ -5,7 +5,7 @@
         </top-button>
         <footer class="footer py-5 pr-lg-5">
             <div class="container-fluid">
-                <div class="row mt-3 pt-3 mx-auto">
+                <div class="row pt-3 mx-auto">
                     <div class="col-lg-4 col-md-4 infos">
                         <img src="../../assets/svg/video-cources.svg" alt="video cource logo" />
                         <ul>

@@ -194,19 +194,3 @@
         },
     };
 </script>
-<style scoped>
-    .sticky{
-        box-shadow: 0px 5px 19px -13px rgba(0,0,0,0.75);
-        position: fixed;
-        width: 100%;
-        margin: -77px 0 0 0;
-        z-index: 1000;
-        transition: all .5s;
-        padding: 23px 0;
-        display: flex;
-        padding: 5px 15px;
-        padding: 5px 15px;
-        margin: -101px 0 0 0;
-        height: 62px;
-    }
-</style>

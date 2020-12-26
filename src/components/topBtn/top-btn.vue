@@ -1,7 +1,7 @@
 <template>
   <div>
     <transition name="back-to-top-fade">
-      <div class="vue-back-to-top" :style="`bottom:${this.bottom};right:${this.right};`" v-show="visible" @click="backToTop">
+      <div class="vue-back-to-top" :style="`bottom:${this.bottom};right:${this.right};`" @click="backToTop">
         <slot>
           <div class="default">
             <button class="backTop">
@@ -102,28 +102,15 @@ export default {
     border: none;
     offset: none;
     transition: all .3s;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
   }
   .backTop .fa-chevron-up{
     transition: all .3s;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
   }
 
   
   .backTop:hover .fa-chevron-up{
     top: -5px;
     position: relative;
-    
-  }
-
-
-  .fa-chevron-up{
     
   }
 </style>
