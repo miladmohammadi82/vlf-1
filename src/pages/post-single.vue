@@ -6,6 +6,7 @@
             <Breadcrumb class="mt-4" :items="items" :active="active" />
             <PostHeader :img="require('../assets/img/posts/vue_js.jpg')" :author="author" alt="alt post" />
             <post-info :options="postInfo" />
+            <post-body />
         </div>
         <Footer />
     </div>
@@ -17,6 +18,7 @@
     import Breadcrumb from "../components/sections/breadcrumb";
     import PostHeader from "../components/sections/post-header";
     import PostInfo from "../components/sections/post-info";
+    import PostBody from "../components/sections/post-body";
     export default {
         name: "PostSingle",
         components: {
@@ -25,6 +27,7 @@
             Breadcrumb,
             PostHeader,
             PostInfo,
+            PostBody,
         },
         data() {
             return {

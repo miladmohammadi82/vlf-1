@@ -1010,6 +1010,34 @@ a {
     cursor: pointer;
 }
 
+.post-body {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.post-body p {
+    text-align: justify;
+    margin: 15px 0;
+}
+
+.post-body h2 {
+    margin: 25px 0;
+}
+
+.post-body a {
+    color: #fca311;
+    transition: 0.5s;
+}
+
+.post-body a:hover {
+    color: #0096c7;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         width: 90%;
