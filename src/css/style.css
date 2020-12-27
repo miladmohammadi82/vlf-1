@@ -1038,6 +1038,29 @@ a {
     color: #0096c7;
 }
 
+.footer-post {
+    border-top: 2px solid #b9b9b9;
+    padding-top: 20px;
+    margin-top: 15px;
+}
+
+.footer-post .tags {
+    list-style: none;
+    display: flex;
+}
+
+.footer-post .tags li {
+    background-color: #00bbf9;
+    padding: 1px 4px;
+    border-radius: 4px;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.footer-post .tags li a{
+    color: #fff;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         width: 90%;
