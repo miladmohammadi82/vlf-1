@@ -1,8 +1,8 @@
 <template>
     <div>
-        <top-button class="top-button mx-auto mt-5">
+        <button class="top-button mx-auto mt-5 mb-4" @click="backToTop()">
             <i class="far fa-angle-up"></i>
-        </top-button>
+        </button>
         <footer class="footer py-5 pr-lg-5">
             <div class="container-fluid">
                 <div class="row pt-3 mx-auto">
@@ -93,12 +93,10 @@
 
 <script>
     import social from "../buttons/socials/social";
-    import topButton from "../topBtn/top-btn";
     export default {
         name: "Footer",
         components: {
             social,
-            topButton,
         },
         data() {
             return {
@@ -106,6 +104,26 @@
                 posts: 53,
                 courses: 5,
             };
+        },
+        mounted() {
+            window.smoothscroll = () => {
+                let currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+                if (currentScroll > 0) {
+                    window.requestAnimationFrame(window.smoothscroll);
+                    window.scrollTo(0, Math.floor(currentScroll - currentScroll / 10));
+                }
+            };
+            window.addEventListener("scroll", this.catchScroll);
+        },
+        methods: {
+            catchScroll() {
+                this.visible = window.pageYOffset > parseInt(this.visibleoffset);
+            },
+
+            backToTop() {
+                window.smoothscroll();
+                this.$emit("scrolled");
+            },
         },
     };
 </script>
