@@ -1061,6 +1061,65 @@ a {
     color: #fff;
 }
 
+.comment-title {
+    font-size: 25px;
+}
+
+.comment-body {
+    width: 80%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 15px 0px 15px 25px;
+    display: flex;
+    position: relative;
+}
+
+.comment-body .author {
+    display: flex;
+    flex-flow: column;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-body .author img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.comment-body .author .name {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.comment-body .author .time {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.comment-body .body {
+    margin: 35px 10px 35px 0px;
+    width: 100%;
+    text-align: justify;
+    line-height: 27px;
+    font-size: 15px;
+}
+
+.reply-btn {
+    position: absolute !important;
+    left: 15px;
+    top: 12px;
+}
+
+.reply-comment li {
+    margin: 20px 40px 0 0;
+    list-style: none;
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         width: 90%;

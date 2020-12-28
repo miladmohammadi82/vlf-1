@@ -7,6 +7,8 @@
             <PostHeader :img="require('../assets/img/posts/vue_js.jpg')" :author="author" alt="alt post" />
             <post-info :options="postInfo" />
             <post-body />
+            <Title class="comment-title">نظرات</Title>
+            <Comment :comments="comments" />
         </div>
         <Footer />
     </div>
@@ -19,6 +21,8 @@
     import PostHeader from "../components/sections/post-header";
     import PostInfo from "../components/sections/post-info";
     import PostBody from "../components/sections/post-body";
+    import Comment from "../components/sections/comment";
+    import Title from "../components/title";
     export default {
         name: "PostSingle",
         components: {
@@ -28,6 +32,8 @@
             PostHeader,
             PostInfo,
             PostBody,
+            Comment,
+            Title,
         },
         data() {
             return {
@@ -58,6 +64,28 @@
                     comments: 68,
                     time: 8,
                 },
+                comments: [
+                    {
+                        id: 1,
+                        user: {
+                            name: "Milad Mohammadi",
+                            avatar: require("../assets/img/Milad-mohammadi-avatar.jpg"),
+                        },
+                        time: "1400/01/01",
+                        body: "این پست بهترین پستی بود که خوانده بودم. واقعا ممنون آقای فضلی !",
+                        childeren: [
+                            {
+                                id: 2,
+                                user: {
+                                    name: "Amirhossein",
+                                    avatar: require("../assets/img/Amir-developer-avatar.jpg"),
+                                },
+                                time: "1400/01/01",
+                                body: "نظر لطف شماست. موفق باشید !",
+                            },
+                        ],
+                    },
+                ],
             };
         },
     };
