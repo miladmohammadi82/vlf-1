@@ -51,7 +51,7 @@
         },
         computed: {
             isLike() {
-                return this.liked ? "fas" : "far";
+                return this.$props.options.liked ? "fas" : "far";
             },
         },
         methods: {
