@@ -43,9 +43,20 @@
                 type: Array,
                 required: true,
             },
+            item: {
+                required: true,
+            }
         },
         components: {
             btnSccss,
         },
+        methods: {
+            isChilderen() {
+                if(typeof this.$props.item == "undefined") {
+                    return true;
+                }
+                return false;
+            }
+        }
     };
 </script>

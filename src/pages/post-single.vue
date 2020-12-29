@@ -8,7 +8,7 @@
             <post-info :options="postInfo" />
             <post-body />
             <Title class="comment-title">نظرات</Title>
-            <Comment :comments="comments" />
+            <Comment v-for="comment in comments" :comments="comments" :key="comment.id" :item="comment" />
         </div>
         <Footer />
     </div>
@@ -73,17 +73,17 @@
                         },
                         time: "1400/01/01",
                         body: "این پست بهترین پستی بود که خوانده بودم. واقعا ممنون آقای فضلی !",
-                        childeren: [
-                            {
-                                id: 2,
-                                user: {
-                                    name: "Amirhossein",
-                                    avatar: require("../assets/img/Amir-developer-avatar.jpg"),
-                                },
-                                time: "1400/01/01",
-                                body: "نظر لطف شماست. موفق باشید !",
-                            },
-                        ],
+                        // childeren: [
+                        //     {
+                        //         id: 2,
+                        //         user: {
+                        //             name: "Amirhossein",
+                        //             avatar: require("../assets/img/Amir-developer-avatar.jpg"),
+                        //         },
+                        //         time: "1400/01/01",
+                        //         body: "نظر لطف شماست. موفق باشید !",
+                        //     },
+                        // ],
                     },
                 ],
             };
