@@ -51,6 +51,10 @@ a {
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 .btn {
   font-family: sans;
   padding: 4px 8px;
@@ -1229,5 +1233,12 @@ a {
     justify-content: center;
 }
 
+.content-register-box .left-register-box .title-left-register-box{
+    display: block;
+}
 
+.content-register-box .left-register-box .image-svg{
+    display: flex;
+    justify-content: center;
+}
 /* END register page */

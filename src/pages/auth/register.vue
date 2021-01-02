@@ -7,10 +7,21 @@
                     ds
                 </div>
                 <div class="col-lg-4 left-register-box">
-                   <div class="title-left-register-box">
-                       <h2 class="d-flex justify-content-center pt-4">ثبت نام</h2>
-                       <p class="d-flex justify-content-center">برای دسترسی به تمامی بخش های این وبسایت لفا ثبت نام کنید !</p>
-                   </div>
+                    <ul>
+                        <li>
+                            <div class="title-left-register-box">
+                                <h2 class="d-flex justify-content-center pt-4">ثبت نام</h2>
+                                <p class="d-flex pt-3 justify-content-center">برای دسترسی به تمامی بخش های این وبسایت لفا ثبت نام کنید !</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image-svg">
+                                ascasc
+                            </div>
+                        </li>
+                    </ul>
+                   
+                   
                    
                 </div>
             </div>
