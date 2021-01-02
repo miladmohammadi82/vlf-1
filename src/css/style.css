@@ -1214,12 +1214,13 @@ li{
 .content-register-box{
     width: 80%;
     height: 500px;
-    background: rgb(243, 98, 98);
+    background: #fff;
     border-radius: 30px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
     -o-border-radius: 30px;
+    box-shadow: 4px 2px 17px -6px #262626;
 }
 
 .content-register-box .left-register-box{
@@ -1240,5 +1241,10 @@ li{
 .content-register-box .left-register-box .image-svg{
     display: flex;
     justify-content: center;
+    margin: 49px 0;
+}
+
+.content-register-box .left-register-box .image-svg img{
+    width: 100%;
 }
 /* END register page */

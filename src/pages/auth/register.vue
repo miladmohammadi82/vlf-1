@@ -16,7 +16,7 @@
                         </li>
                         <li>
                             <div class="image-svg">
-                                ascasc
+                                <img :src="img" alt="">
                             </div>
                         </li>
                     </ul>
@@ -32,7 +32,12 @@
 
 <script>
 export default {
-    name: "register-page"
+    name: "register-page",
+    data(){
+        return{
+            img: require('../../assets/img/vectors/Login-rafiki.svg')
+        }
+    }
 }
 </script>
 
