@@ -4,7 +4,26 @@
         <div class="justify-content-center fade-in-y forgot row">
             <div class="content-register-box mt-5 row">
                 <div class="col-lg-8">
-                    ds
+                    <form action="" class="content-form-register row">
+                        <div class="input-field-box col-md-6 col-sm-12 col-xs-12">
+                            <div class="input-field-register">
+                                <input type="text">
+                                <label for=""><i class="fas fa-user"></i>&nbsp;&nbsp;نام</label>
+                            </div>
+                        </div>
+                        <div class="input-field-box col-md-6 col-sm-12 col-xs-12">
+                            <div class="input-field-register">
+                                <input type="text">
+                                <label for=""><i class="fas fa-user"></i>&nbsp;&nbsp;نام کاربری</label>
+                            </div>
+                        </div>
+                        <div class="input-field-box col-md-12 col-sm-12 col-xs-12">
+                            <div class="input-field-register">
+                                <input type="text">
+                                <label for=""><i class="fas fa-user"></i>&nbsp;&nbsp;نام کاربری</label>
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-lg-4 left-register-box">
                     <ul>
