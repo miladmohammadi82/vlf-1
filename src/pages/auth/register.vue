@@ -20,7 +20,19 @@
                         <div class="input-field-box col-md-12 col-sm-12 col-xs-12">
                             <div class="input-field-register">
                                 <input type="text">
-                                <label for=""><i class="fas fa-user"></i>&nbsp;&nbsp;نام کاربری</label>
+                                <label for=""><i class="fas fa-at"></i>&nbsp;&nbsp;ایمیل</label>
+                            </div>
+                        </div>
+                        <div class="input-field-box col-md-6 col-sm-12 col-xs-12">
+                            <div class="input-field-register">
+                                <input type="text">
+                                <label for=""><i class="fas fa-lock-alt"></i>&nbsp;&nbsp;رمز عبور</label>
+                            </div>
+                        </div>
+                        <div class="input-field-box col-md-6 col-sm-12 col-xs-12">
+                            <div class="input-field-register">
+                                <input type="text">
+                                <label for=""><i class="fas fa-lock-alt"></i>&nbsp;&nbsp;تکرار رمز عبور</label>
                             </div>
                         </div>
                     </form>
