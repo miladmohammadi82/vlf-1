@@ -1213,7 +1213,7 @@ li{
 
 .content-register-box{
     width: 80%;
-    height: 500px;
+    height: 520px;
     background: #fff;
     border-radius: 30px;
     -webkit-border-radius: 30px;
@@ -1302,6 +1302,28 @@ li{
 
 .content-form-register{
     padding: 15px 0;
+}
+
+.recaptcha{
+    width: 200px;
+    height: 50px;
+    background: #000;
+    margin: 15px;
+}
+
+.recaptcha h6{
+    color: wheat;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.login-link{
+    display: flex;
+    margin: 92px -202px;
+}
+
+.login-link ul li a{
+    color: #FF6B00;
 }
 
 /* END register page */

@@ -35,6 +35,15 @@
                                 <label for=""><i class="fas fa-lock-alt"></i>&nbsp;&nbsp;تکرار رمز عبور</label>
                             </div>
                         </div>
+                        <div class="recaptcha">
+                            <h6 class="text-center text-white">im not robot</h6>
+                        </div>
+                        <div class="login-link">
+                            <ul>
+                                <li><a href="#"><i class="fas fa-user"></i>&nbsp;&nbsp;وارد شوید</a></li>
+                            </ul>
+                            
+                        </div>
                     </form>
                 </div>
                 <div class="col-lg-4 left-register-box">
