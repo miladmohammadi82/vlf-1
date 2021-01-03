@@ -25,13 +25,13 @@
                         </div>
                         <div class="input-field-box col-md-6 col-sm-12 col-xs-12">
                             <div class="input-field-register">
-                                <input type="text">
+                                <input type="password">
                                 <label for=""><i class="fas fa-lock-alt"></i>&nbsp;&nbsp;رمز عبور</label>
                             </div>
                         </div>
                         <div class="input-field-box col-md-6 col-sm-12 col-xs-12">
                             <div class="input-field-register">
-                                <input type="text">
+                                <input type="password">
                                 <label for=""><i class="fas fa-lock-alt"></i>&nbsp;&nbsp;تکرار رمز عبور</label>
                             </div>
                         </div>
@@ -42,8 +42,11 @@
                             <ul>
                                 <li><a href="#"><i class="fas fa-user"></i>&nbsp;&nbsp;وارد شوید</a></li>
                             </ul>
-                            
                         </div>
+                        <div class="btn-auth-box col-lg-12">
+                            <button class="btn-auth">ثبت نام</button>
+                        </div>
+                        
                     </form>
                 </div>
                 <div class="col-lg-4 left-register-box">

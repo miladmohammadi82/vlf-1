@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'sans-md';
 }
 
 *:focus {
@@ -1256,7 +1257,9 @@ li{
     border-bottom: 2px solid #aaaaaa;
 }
 
-.input-field-register input[type="text"]{
+.input-field-register input[type="text"],
+.input-field-register input[type="email"],
+.input-field-register input[type="password"]{
     position: absolute;
     background: #fff;
     border: none;
@@ -1286,7 +1289,9 @@ li{
     padding: 10px;
 }
 
-.input-field-register input[type="text"]:focus + label{
+.input-field-register input[type="text"]:focus + label,
+.input-field-register input[type="email"]:focus + label,
+.input-field-register input[type="password"]:focus + label{
     transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
@@ -1318,12 +1323,39 @@ li{
 }
 
 .login-link{
-    display: flex;
-    margin: 92px -202px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 5px;
+    padding: 15px;
 }
 
 .login-link ul li a{
     color: #FF6B00;
 }
 
+.btn-auth-box{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 -24px;
+}
+
+.btn-auth-box button{
+    margin-top: 20px;
+}
+
+.btn-auth{
+    width: 144px;
+    height: 46px;
+    border: none;
+    font-size: 19px;
+    background: #fca311;
+    border-radius: 10px;
+    color: #262626;
+    cursor: pointer;
+}
+
+.btn-auth:active{
+    background: #e68e00;
+}
 /* END register page */
